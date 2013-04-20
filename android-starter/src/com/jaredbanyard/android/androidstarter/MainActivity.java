@@ -1,12 +1,10 @@
 package com.jaredbanyard.android.androidstarter;
 
-import com.actionbarsherlock.app.SherlockFragmentActivity;
-
 import android.os.Bundle;
-import android.app.Activity;
-import android.view.Menu;
 
-public class MainActivity extends SherlockFragmentActivity {
+import com.jaredbanyard.android.androidstarter.Base.BaseActivity;
+
+public class MainActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
